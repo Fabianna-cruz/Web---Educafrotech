@@ -1,0 +1,90 @@
+corpo{
+  fundo: URL('bg.jpg');
+}
+
+.recipiente{
+  largura: 750px;
+  margem: 10pxauto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #007bff; /* Cor dos links */
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+header {
+  background-color: #fff; /* Cor do cabeçalho */
+  padding: 20px 0;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 80px; /* Tamanho da logo */
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  padding: 10px 15px;
+  background-color: #007bff; /* Cor do menu */
+  color: #fff; /* Cor do texto do menu */
+}
+
+nav a:hover {
+  background-color: #0056b3; /* Cor do menu ao passar o mouse */
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.desafio-1 {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.desafio-1 h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.desafio-1 p {
+  line-height: 1.5;
+}
+
+.desafio-1 img {
+  margin-bottom: 20px;
+}
+footer {
+  background-color: #333; /* Cor do rodapé */
+  color: #fff; /* Cor do texto do rodapé */
+  padding: 20px;
+  text-align: center;
+}
